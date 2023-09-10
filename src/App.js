@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
@@ -7,8 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <footer className="mt-1">
-          👌This website was coded by{" "}
-        Tina Searchfield 
+          👌This website was coded by Tina Searchfield
           <a
             href="https://github.com/TinaGrace0810/weather-react-copy.git"
             target="_blank"
