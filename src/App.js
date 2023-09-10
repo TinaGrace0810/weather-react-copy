@@ -8,22 +8,14 @@ export default function App() {
         <Weather defaultCity="London" />
         <footer className="mt-1">
           👌This website was coded by{" "}
-          <a
-            href="https://www.linkedin.com/in/kaliope-caras-90333064/"
-            target="_blank"
-            rel="noreferrer"
-            title="Kalli Caras's LinkedIn"
-          >
-            Tina Searchfield
-          </a>{" "}
-          and is{" "}
+        Tina Searchfield 
           <a
             href="https://github.com/TinaGrace0810/weather-react-copy.git"
             target="_blank"
             rel="noreferrer"
             title="Source code on GitHub"
           >
-            <strong>open-sourced</strong>
+            <strong> open-sourced</strong>
           </a>
         </footer>
       </div>
