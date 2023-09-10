@@ -1,65 +1,67 @@
 .Weather {
-  border: 1px solid #dadce0;
-  border-radius: 5px;
+  border: 2px solid #dadce0;
+  border-radius: 3px;
   color: #878787;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 22px;
+  padding: 8px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d0/Background-clouds.jpg");
+  background-size: cover;
 }
 .Weather li {
   list-style-type: none;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 .Weather .current-temp-icon {
-  width: 90px;
+  width: 70px;
   position: relative;
-  bottom: 12px;
+  bottom: 10px;
 }
 .Weather .temperature {
-  font-size: 64px;
+  font-size: 60px;
   color: #212121;
-  line-height: 64px;
+  line-height: 60px;
 }
 .Weather .unit {
   color: #212121;
   position: relative;
-  bottom: 28px;
-  left: 1px;
-  font-size: 23px;
+  bottom: 25px;
+  left: 2px;
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
   .Weather .time-date-conditions {
-    padding-left: 20px;
-    font-size: 15px;
+    padding-left: 25px;
+    font-size: 12px;
   }
   .Weather .current-weather {
     display: flex;
     position: relative;
     padding: 0;
-    right: 5px;
+    right: 6px;
     top: 10px;
   }
   .Weather .current-temp-icon {
-    height: 90px;
+    height: 100px;
   }
   .Weather .temperature {
     position: relative;
-    right: 5px;
-    font-size: 55px;
+    right: 3px;
+    font-size: 65px;
   }
   .Weather .unit {
     position: relative;
-    top: 3px;
-    left: -2px;
+    top: 5px;
+    left: 2px;
   }
   .Weather .current-info {
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
-    top: 14px;
-    padding: 0;
+    top: 12px;
+    padding: 2;
   }
   .Weather .forecast {
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 12px;
   }
 }
