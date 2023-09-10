@@ -1,4 +1,4 @@
-import React from "react";
+import Reactn from "react";
 import "./App.css";
 import Weather from "./Weather";
 

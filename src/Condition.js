@@ -1,9 +1,9 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 
-export default function Info(props) {
+export default function Condition(props) {
   return (
-    <div className="nfo">
+    <div className="Condition">
       <h1 className="ms-3 mt-3 mb-0">{props.data.city}</h1>
       <ul className="mt-1 time-date-conditions">
         <li>
