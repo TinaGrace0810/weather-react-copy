@@ -1,12 +1,14 @@
 .Weather {
-  border: 2px solid #1c1f23;
-  border-radius: 3px;
-  color: #004394;
-  margin-top: 22px;
-  padding: 8px;
+  border: 5px ridge rgb(20, 20, 20);
+  padding: 12px;
+  margin: auto 0;
+  border-radius: 15px;
+  max-width: 500px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d0/Background-clouds.jpg");
   background-size: cover;
+  text-align: center;
 }
+
 .Weather li {
   list-style-type: none;
   line-height: 1.5;
